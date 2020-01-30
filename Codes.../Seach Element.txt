@@ -1,0 +1,58 @@
+Given an array A, containing n distinct integers, you need to seacrh an element x in the array and print reverse of element x. If the element doesn't exist then print "NE"
+You will be given q queries to solve.
+
+Constraints:
+1 <= q <= 10^5
+1 <= n <= 10^5
+-2^63 <= A[i], x <= 2^63 - 1
+
+Sample Input:
+5
+12 24 83 75 31
+2
+31 
+45
+
+Sample Output:
+13
+NE
+
+
+xor bits
+
+Moli's mathematics teacher has given her a homework in which she has been given a list of "N" unique numbers and "Q" fuzzy numbers. Now, her task is to find a number A[i] from that list for each fuzzy number "X" in "Q" such that the binary sum of A[i] and the complement of "X" is a number whose all bits are set. 
+
+As Moli has to submit her homework tommorow and she is weak in mathematics, she needs your help. Please help her with her homework.
+
+Input:
+*) First line contain an integer N
+*) Next line contain Set of N numbers
+*) Next line contain an integer Q i.e no of queries
+*) Next Q lines will contain fuzzy numbers, one in each line.
+
+Output:
+For every X print "YES" if you find such a number in the list satisfying the above condition otherwise print "NO".
+
+
+Constraints:
+1 <= Q <= 10^5
+1 <= N <= 10^5
+-2^63 <= A[i], x <= 2^63 - 1, 1 <= i <= N
+
+
+
+Sample Input:
+5
+12 24 83 75 31
+2
+31 
+45
+
+Sample Output:
+YES
+NO
+
+
+
+
+
