@@ -1,4 +1,7 @@
-// Pratik Mehta 
+/***********************
+* author: Pratik Mehta *
+* created:09.07.20     *
+***********************/
 
 #include <algorithm>
 #include <iostream>
@@ -32,7 +35,7 @@
 #define MS std::map<int,string>
 #define SM std::map<string, int>
 
-//This code solely belongs to Pratik Mehta
+
 using namespace std;
 
 void solve()
