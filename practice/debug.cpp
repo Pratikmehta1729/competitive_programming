@@ -1,6 +1,6 @@
 /***********************
 * author: Pratik Mehta *
-* created:16.07.20     *
+* created:09.07.20     *
 ***********************/
 
 
@@ -35,23 +35,18 @@
 #define MI std::map<int,int>
 #define MS std::map<int,string>
 #define SM std::map<string, int>
-#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
 
 using namespace std;
 
-void solve()
-{
 
-}
 
 
 int main(){
-	IOS
-    int T;
-    cin>>T;
-    while(T--){
-          solve();
-    }
+
+    string str = "pratik";
+    str[1]='0';
+    cout<<str;
+
     return 0;
 }
